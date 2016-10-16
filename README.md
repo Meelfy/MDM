@@ -98,12 +98,14 @@ Matrix displacement method
 --------
 
 ### 问题一的运行结果为
-
-![问题一内力图][内力图1]
+<div align="center">
+    <img src="https://github.com/MajorChina/MDM/blob/master/img/mage_001.png" width="550">
+</div>
 
 ### 问题二的运行结果为
-
-![问题二内力图][内力图2]
+<div align="center">
+    <img src="https://github.com/MajorChina/MDM/blob/master/img/mage_002.png" width="550">
+</div>
 
 ### Function description
 
@@ -126,5 +128,3 @@ You should have received a copy of the GNU General Public License along with thi
 [结构力学教程]: http://www.hep.com.cn/book/details?uuid=528838e6-1414-1000-b576-3fafc67de19c&objectId=oid:52883919-1414-1000-b577-3fafc67de19c
 [病态矩阵]:     http://mathworld.wolfram.com/Ill-ConditionedMatrix.html
 [条件数]:       https://en.wikipedia.org/wiki/Condition_number
-[内力图1]:      /Users/MajorPC/Desktop/Matrix_displacement_method/img/Image_001.png "问题一内力图"
-[内力图2]:      /Users/MajorPC/Desktop/Matrix_displacement_method/img/Image_002.png "问题二内力图"

@@ -99,14 +99,13 @@ Matrix displacement method
 
 ### 问题一的运行结果为
 <div align="center">
-    <img src="https://github.com/MajorChina/MDM/blob/master/img/mage_001.png" width="550">
+    <img src="https://github.com/MajorChina/MDM/blob/master/img/Image_001.png" width="550">
 </div>
 
 ### 问题二的运行结果为
 <div align="center">
-    <img src="https://github.com/MajorChina/MDM/blob/master/img/mage_002.png" width="550">
+    <img src="https://github.com/MajorChina/MDM/blob/master/img/Image_002.png" width="550">
 </div>
-
 ### Function description
 
 - 程序的入口

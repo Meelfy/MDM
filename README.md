@@ -109,7 +109,24 @@ Matrix displacement method
 ### Function description
 
 - 程序的入口
+
     main.m 
+
+- 计算等效节点荷载
+
+    equivalentNodalLoads.m
+    
+- 计算整体刚度矩阵
+
+    assembledStiffnessMatrix.m
+
+- 计算杆端力向量
+
+    rodEndForceVector.m
+
+- 绘制原结构图、弯矩图、剪力图和轴力图
+
+    displayStructure.m
 
 
 License

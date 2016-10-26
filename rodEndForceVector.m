@@ -30,7 +30,7 @@ function F_bar = rodEndForceVector(bar,node,Delta,Fp_e)
                 -sin(Alpha) cos(Alpha) 0;
                 0 0 1];
         T = [temp,zeros(3,3);zeros(3,3),temp];
-        T(T < 1e-10) = 0;
+        T(abs(T) < 1e-10) = 0;
         k_e = T'*k_bar_e*T;
 
         idx = [node(bar(i,2),[0,node(bar(i,2),2:4)]>0),node(bar(i,3),[0,node(bar(i,3),2:4)]>0)];
@@ -39,5 +39,5 @@ function F_bar = rodEndForceVector(bar,node,Delta,Fp_e)
         Delta_e(idx2) = Delta(idx);
         F_bar(:,i) = T*(k_e*Delta_e - Fp_e(:,i));
     end
-    F_bar(F_bar < 1e-10) = 0;
+    F_bar(abs(F_bar) < 1e-10) = 0;
 end
